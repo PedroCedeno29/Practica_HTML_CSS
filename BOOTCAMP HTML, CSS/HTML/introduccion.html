@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <h3>Escoja una opcion</h3>
+        <!--En los radioButton para que solo se pueda escoger una opcion se debe usar el mismo atributo 'name' para todos los radio-->
+        <label for="radio1">Opción 1</label>
+        <input type="radio" id="radio1" name="radio" value="Opción 1">
+        <label for="radio2">Opción 2</label>
+        <input type="radio" id="radio2" name="radio" value="Opción 2">
+        <label for="radio3">Opción 3</label>
+        <input type="radio" id="radio3" name="radio" value="Opción 3"><br><br>
+        
+        <!--En los checkbox no se puede escoger solo una opcion. Si se quiere hacer eso se debe usar otro atributo como los radioButton.-->
+        <h3>Selección ganadora del mundial 2022:</h3>
+        <label>Ecuador</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+
+        <label>Argentina</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+
+        <label>Colombia</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1"><br><br>
+
+        <button type="submit" name="boton1" value="enviar">Enviar</button>
+        <!--Se envia boton1 = enviar-->
+
+    </form>
+</body>
+</html>
