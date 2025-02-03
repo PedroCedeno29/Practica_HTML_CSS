@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de login</title>
+</head>
+<body>
+    <div id="tituloPrincipal">
+        <center>
+            <h2>Inicio de sesión</h2>
+        </center>
+    </div>
+    <main id="Main">
+       
+        <div id="formularioDatos">
+            <center>
+                <table>
+                    <thead>
+                        <th colspan="2">
+                                Bienvenido
+                        </th>
+                    </thead>
+                    <tbody>
+                        <form method="post">
+                            <tr>
+                                 <td>
+                                    <label for="txtEmail">Email:</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="txtEmail" placeholder="Ingresa tu correo" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="txtPassword">Contraseña:</label>
+                                </td>
+                                <td>
+                                    <input type="password" name="txtPassword" placeholder="Ingresa una contraseña" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="checkbox1">
+                                        Recordar usuario
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="checkbox1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="submit">Iniciar sesión</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </tbody>
+                </table>
+                <br>
+                <a href="recuperarclave.html">recuperar contraseña</a>
+            </center>
+        </div>
+    </main>
+</body>
+</html>

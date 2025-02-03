@@ -6,6 +6,20 @@
     <title>Formulario</title>
 </head>
 <body>
+    <h2>Menú</h2>
+    <ul>
+        <li>
+            <a href="./introduccion.html">Introducción a html</a>
+        </li>
+        <li>
+            <a href="./listas_tablas.html">Listas, tablas, imágenes</a>
+        </li>
+        <li>
+            <a href="./../02 - maquetación_html/contenedores.html">Contenedores</a>
+        </li>
+    </ul>
+    <br>
+    
     <form>
         <h3>Escoja una opcion</h3>
         <!--En los radioButton para que solo se pueda escoger una opcion se debe usar el mismo atributo 'name' para todos los radio-->
@@ -25,8 +39,16 @@
         <input type="checkbox" id="checkbox1" name="checkbox1">
 
         <label>Colombia</label>
-        <input type="checkbox" id="checkbox1" name="checkbox1"><br><br>
+        <input type="checkbox" id="checkbox1" name="checkbox1"><br><br><br>
 
+        <label for="pais">País:</label>
+        <select id="pais" name="pais:">
+            <option value="p1">Ecuador</option>
+            <option value="p2">Argentina</option>
+            <option value="p3">Uruguay</option>
+        </select>
+        <br><br><br><br>
+        
         <button type="submit" name="boton1" value="enviar">Enviar</button>
         <!--Se envia boton1 = enviar-->
 

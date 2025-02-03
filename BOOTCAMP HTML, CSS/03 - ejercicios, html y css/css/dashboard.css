@@ -1,0 +1,35 @@
+.contenedor_Master {
+    display: grid;    /*esta propiedad permite definir a un contenedor como un contenedor de cuadricula, lo que permite organizar los elementos internos en filas y columnas*/
+    height: 100;
+    grid-template-columns: 1fr 1fr;  /*Define el numero y tamaño de las columnas. En este caso significa que habrá dos columnas de igual tamaño, cada una ocupando una fracción (fr) del espacio disponible.*/
+    grid-template-rows: 1fr 1fr;     /*1fr 1fr significa que habrá dos filas de igual tamaño.*/
+}
+
+.contenedor_Hijo{
+    margin: 2px;
+    border-radius: 20px;  /*sirve para establecer bordes redondeados*/
+    background-color: whitesmoke;
+}
+
+
+
+.div-margen-contenido{
+    margin: 25px;
+}
+
+.indicadores{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.indicador{
+    background-color: white;
+    margin: 2px;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}

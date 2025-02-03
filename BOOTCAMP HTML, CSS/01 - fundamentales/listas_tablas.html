@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y tablas</title>
+</head>
+<body>
+    <h2>Menú</h2>
+    <ul>
+        <li>
+            <a href="./introduccion.html">Introducción a html</a>
+        </li>
+        <li>
+            <a href="./listas_tablas.html">Listas, tablas, imágenes</a>
+        </li>
+        <li>
+            <a href="./../02 - maquetación_html/contenedores.html">Contenedores</a>
+        </li>
+    </ul>
+    <br>
+    
+    <h2>Listas</h2>
+    <h3>Tripulación de los mugiwaras (ordenados por poder)</h3>
+    <ul>
+        <li>Monkey D. Luffy</li>
+        <li>Roronoa Zoro</li>
+        <li>Vinsmoke Sanji</li>
+        <li>Jimbei</li>
+        <li>Nico Robin</li>
+        <li>Brook</li>
+        <li>Franky</li>
+        <li>Jewelry Booney</li>
+        <li>Chopper</li>
+        <li>Nami</li>
+        <li>Ussop</li>
+    </ul>
+    <br><br>
+
+    <h3>Mejores arcos de One Piece </h3>
+    <ol type="1">
+        <li>Ennies Lobby</li>
+        <li>Impel down</li>
+        <li>Wano</li>
+        <li>Egghead</li>
+        <li>Marineford</li>
+        <li>Dressrosa</li>
+        <li>Isla Gyoyin</li>
+    </ol>
+    <br><br>
+
+    <h3>Arbol genealógico de la familia Monkey D.</h3>
+    <ul>
+        <li>Monkey D. Garp</li>
+        <ul>
+            <li>Monkey D. Dragon</li>
+            <ul>
+                <li>Monkey D. Luffy</li>
+            </ul>
+        </ul>
+    </ul>
+    <br><br>
+
+
+    <h1>Tablas</h1>
+    <caption><b>Descripción de la tabla</b></caption>
+    <table style="border: solid black 1px;">
+        <!--ENCABEZADO: fila con los nombres de las columnas-->
+        <thead> <!--Thead: es el elemento que contiene los elementos del encabezado-->
+            <th style="border: solid black 1px;">Columna 1</th> <!--th (table header): Elemento del encabezado-->
+            <th style="border: solid black 1px;">Columna 2</th>
+            <th style="border: solid black 1px;" colspan="2">Columna 3</th>
+        </thead>
+
+        <!--CUERPO DE LA TABLA-->
+        <tbody >
+            <tr ><!--tr (table row): es la fila de la tabla-->
+                <td style="border: solid black 1px;">
+                    Elemento 1
+                </td> <!--table data-->
+                <td style="border: solid black 1px;">
+                    Elemento 2
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+            </tr> 
+            <tr >
+                <td style="border: solid black 1px;">
+                    Elemento 1
+                </td >
+                <td style="border: solid black 1px;">
+                    Elemento 2
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+            </tr> 
+            <tr>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+                <td style="border: solid black 1px;">
+                    Elemento 3
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="border: solid black 1px;" > <!--Este primer dato vendria a ser el pivote-->
+                    Total
+                </td>
+                <td style="border: solid black 1px;">
+                    valor x
+                </td>
+                <td style="border: solid black 1px;">
+                    valor y
+                </td>
+                <td style="border: solid black 1px;">
+                    valor z
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid black 1px;">valor 1</td>
+                <td style="border: solid black 1px;">valor 2</td>
+                <td style="border: solid black 1px;">valor 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Imágenes</h3>
+    <input type="image" src="./../assets/ia.jpg" width="500px"> <!-- './' es para acceder a diferentes elementos dentro de la misma carpeta y '../ es para acceder a elementos de otra carpeta'-->
+    <br>
+    <br>
+    
+    <h3>Subir documentos</h3>
+    <input type="file" id="filecontrol" name="filecontrol">
+</body>
+</html>
